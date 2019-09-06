@@ -54,14 +54,38 @@
 		98BC185823226794003808B1 /* Cloudone Plus */ = {
 			isa = PBXGroup;
 			children = (
+				98BC186D232267FC003808B1 /* Model */,
+				98BC186C232267FA003808B1 /* View */,
+				98BC186B232267F6003808B1 /* Controller */,
 				98BC185923226794003808B1 /* AppDelegate.swift */,
-				98BC185B23226794003808B1 /* ViewController.swift */,
-				98BC185D23226794003808B1 /* Main.storyboard */,
-				98BC186023226795003808B1 /* Assets.xcassets */,
-				98BC186223226795003808B1 /* LaunchScreen.storyboard */,
 				98BC186523226795003808B1 /* Info.plist */,
 			);
 			path = "Cloudone Plus";
+			sourceTree = "<group>";
+		};
+		98BC186B232267F6003808B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98BC185B23226794003808B1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98BC186C232267FA003808B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98BC186023226795003808B1 /* Assets.xcassets */,
+				98BC186223226795003808B1 /* LaunchScreen.storyboard */,
+				98BC185D23226794003808B1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98BC186D232267FC003808B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
